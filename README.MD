@@ -23,3 +23,6 @@ Being done to support appplication to
 
 Actual work docs will be sub folders 
 
+# Docs and Notes
+
+Will be found in the docz directory 
