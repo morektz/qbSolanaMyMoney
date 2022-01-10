@@ -27,11 +27,10 @@ tasks:
   init: |
    gp sync-await rustinstall
    sh -c "$(curl -sSfL https://release.solana.com/v1.8.0/install)"
-  command: 
-    export $PATH="/home/gitpod/.local/share/solana/install/active_release/bin:$PATH" &&
-    source ~/.bashrc &&
-    echo $PATH | grep solana &&
-    solana
+   export PATH="/home/gitpod/.local/share/solana/install/active_release/bin:$PATH" &&
+   source ~/.bashrc &&
+   echo $PATH | grep solana &&
+  command:  solana
   openMode: tab-after
 
 # Install Solana 
