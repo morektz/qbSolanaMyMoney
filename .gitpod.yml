@@ -54,8 +54,7 @@ tasks:
 - name: Add Solana Path 
   init: |
     gp sync-await rustinstall
-  command: |
-    . ./SetSolanaPath
+  command: . ./SetSolanaPath
   openMode: tab-after
 
 
