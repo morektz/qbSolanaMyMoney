@@ -55,9 +55,7 @@ tasks:
   init: |
     gp sync-await rustinstall
   command: |
-    echo "Run following commands when opening a new terminal" &&
-    echo "export PATH="/home/gitpod/.local/share/solana/install/active_release/bin:$PATH" && 
-    echo "source ~/.bashrc" 
+    . ./SetSolanaPath
   openMode: tab-after
 
 
