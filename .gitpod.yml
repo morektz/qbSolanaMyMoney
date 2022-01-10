@@ -31,6 +31,7 @@ tasks:
     export PATH="/home/gitpod/.local/share/solana/install/active_release/bin:$PATH" &&
     source ~/.bashrc &&
     echo $PATH | grep solana &&
+    solana
   openMode: tab-after
 
 # Install Solana 
@@ -45,6 +46,7 @@ tasks:
   init: |
     gp sync-await rustinstall
     npm i -g @project-serum/anchor-cli
+  command: anchor 
   openMode: tab-after
 
 
