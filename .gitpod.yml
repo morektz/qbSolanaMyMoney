@@ -57,6 +57,13 @@ tasks:
   command: . ./SetSolanaPath
   openMode: tab-after
 
+#Install npm server - required to server port 8080 or whichever port solana wants opened 
+- name: Install NPM Server
+  init: |
+    npm install --global http-server
+    gp sync-await rustinstall
+  
+
 
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
 ports:
