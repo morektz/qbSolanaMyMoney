@@ -25,15 +25,22 @@ tasks:
 # Install Solana 
 - name: Solana Install
   init: |
-   sh -c "$(curl -sSfL https://release.solana.com/v1.8.0/install)"
    gp sync-await rustinstall
+   sh -c "$(curl -sSfL https://release.solana.com/v1.8.0/install)"
   openMode: tab-after
 
 # Install Solana 
 - name: Mocha Global install 
   init: |
-    npm install -g mocha
     gp sync-await rustinstall
+    npm install -g mocha
+  openMode: tab-after
+
+# Install Anchor
+- name: Anchor Install 
+  init: |
+    gp sync-await rustinstall
+    npm i -g @project-serum/anchor-cli
   openMode: tab-after
 
 
