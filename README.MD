@@ -7,6 +7,8 @@ WARNING ! USING THE CONTENTS OF THIS REPO IN YOUR MAIN SOLANA DEV ENV WILL COMPL
 
 [![](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/morektz/qbSolanaMyMoney)
 
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#github.com/morektz/qbSolanaMyMoney)
+
 [![image alt text](image URL link)](anchor link)
 
 # Repo Description 
