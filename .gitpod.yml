@@ -18,7 +18,7 @@ tasks:
     curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
     gp sync-done rustinstall
   command: |
-    source $HOME/.cargo/env
+    source $HOME/.cargo/env 
     rustup component add rustfmt
   openMode: tab-after
 
@@ -26,10 +26,10 @@ tasks:
 - name: Solana Install
   init: |
    gp sync-await rustinstall
-   sh -c "$(curl -sSfL https://release.solana.com/v1.8.0/install)" && 
-   export PATH="/home/gitpod/.local/share/solana/install/active_release/bin:$PATH" &&
-   source ~/.bashrc &&
-   echo $PATH | grep solana &&
+   sh -c "$(curl -sSfL https://release.solana.com/v1.8.0/install)" 
+   export PATH="/home/gitpod/.local/share/solana/install/active_release/bin:$PATH" 
+   source ~/.bashrc 
+   echo $PATH | grep solana 
   command:  solana
   openMode: tab-after
 
