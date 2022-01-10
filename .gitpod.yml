@@ -29,7 +29,7 @@ tasks:
    sh -c "$(curl -sSfL https://release.solana.com/v1.8.0/install)"
   command: 
     export PATH="/home/gitpod/.local/share/solana/install/active_release/bin:$PATH" &&
-    source ~/.bashrc **
+    source ~/.bashrc &&
     echo $PATH | grep solana &&
   openMode: tab-after
 
