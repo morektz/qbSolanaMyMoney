@@ -1,0 +1,9 @@
+#!/bin/bash
+# Script written from setting the solana path, since at he time of maing this unsure how to set global path 
+# variable in gitpod 
+
+clear
+export PATH="/home/gitpod/.local/share/solana/install/active_release/bin:$PATH"
+source ~/.bashrc
+echo $PATH | grep solana
+solana 
