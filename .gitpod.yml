@@ -28,7 +28,7 @@ tasks:
    gp sync-await rustinstall
    sh -c "$(curl -sSfL https://release.solana.com/v1.8.0/install)"
   command: 
-    export PATH="/home/gitpod/.local/share/solana/install/active_release/bin:$PATH" &&
+    export $PATH="/home/gitpod/.local/share/solana/install/active_release/bin:$PATH" &&
     source ~/.bashrc &&
     echo $PATH | grep solana &&
     solana
@@ -52,14 +52,14 @@ tasks:
 # Add path when opening a new terminal
 # You need to add these to bashrc everytime you open a terminal, since gitpod doesnt give permissions to edit 
 # /etc/environment & /etc/profile
-- name: Add Solana Path 
-  init: |
-    gp sync-await rustinstall
-  command: |
-    echo "Run following commands when opening a new terminal" &&
-    echo "export PATH="/home/gitpod/.local/share/solana/install/active_release/bin:$PATH" && 
-    echo "source ~/.bashrc" 
-  openMode: tab-after
+# - name: Add Solana Path 
+#   init: |
+#     gp sync-await rustinstall
+#   command: |
+#     echo "Run following commands when opening a new terminal" &&
+#     echo "export PATH="/home/gitpod/.local/share/solana/install/active_release/bin:$PATH" && 
+#     echo "source ~/.bashrc" 
+#   openMode: tab-after
 
 
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
