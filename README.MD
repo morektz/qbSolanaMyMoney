@@ -25,4 +25,6 @@ Actual work docs will be sub folders
 
 # Docs and Notes
 
-Will be found in the docz directory 
+# | Description | Link
+--- | --- | --- 
+1 | Installation Notes | ![CLICK HERE](/main/docz/install.MD) 
