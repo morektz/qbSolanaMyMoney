@@ -14,7 +14,7 @@ tasks:
 
 # Rust install 
 - name: Rust Install
-  init: |
+  init: >
     curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
     gp sync-done rustinstall
   command: |
@@ -24,7 +24,7 @@ tasks:
 
 # Install Solana 
 - name: Solana Install
-  init: |
+  init: >
    gp sync-await rustinstall
    sh -c "$(curl -sSfL https://release.solana.com/v1.8.0/install)" && 
    export PATH="/home/gitpod/.local/share/solana/install/active_release/bin:$PATH" &&
@@ -35,14 +35,14 @@ tasks:
 
 # Install Solana 
 - name: Mocha Global install 
-  init: |
+  init: >
     gp sync-await rustinstall
     npm install -g mocha
   openMode: tab-after
 
 # Install Anchor
 - name: Anchor Install 
-  init: |
+  init: >
     gp sync-await rustinstall
     npm i -g @project-serum/anchor-cli
   command: anchor 
