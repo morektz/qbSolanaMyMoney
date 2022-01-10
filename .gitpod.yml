@@ -1,0 +1,36 @@
+# List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
+# Installation packages for the work in this repo 
+
+# Setting up a task template 
+
+# - name: Rust Install
+#   init: >
+#     curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+#   command: |
+#     source $HOME/.cargo/env
+#     rustup component add rustfmt
+
+tasks:
+
+# Rust install 
+- name: Rust Install
+  init: |
+    curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+    gp sync-done rustinstall
+  command: |
+    source $HOME/.cargo/env
+    rustup component add rustfmt
+  openMode: tab-after
+
+# Install Solana 
+- name: Solana Install
+  init: |
+   sh -c "$(curl -sSfL https://release.solana.com/v1.8.0/install)"
+   gp sync-await rustinstall
+  openMode: tab-after
+
+
+# List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
+ports:
+  - port: 3000
+    onOpen: open-preview
