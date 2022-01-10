@@ -29,6 +29,13 @@ tasks:
    gp sync-await rustinstall
   openMode: tab-after
 
+# Install Solana 
+- name: Mocha Global install 
+  init: |
+    npm install -g mocha
+    gp sync-await rustinstall
+  openMode: tab-after
+
 
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
 ports:

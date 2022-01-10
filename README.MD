@@ -5,9 +5,9 @@ WARNING ! USING THE CONTENTS OF THIS REPO IN YOUR MAIN SOLANA DEV ENV WILL COMPL
 
 # Open this repo in gitpod
 
-[![](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/morektz/qbSolanaMyMoney)
-
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#github.com/morektz/qbSolanaMyMoney)
+
+Button above will open this repo in gitpod and run contents of .gitpod.yml 
 
 [![image alt text](image URL link)](anchor link)
 
