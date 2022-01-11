@@ -27,4 +27,5 @@ Actual work docs will be sub folders
 
 N | Description | Link
 | --- | --- | --- | 
-1 | Installation Notes | [CLICK HERE](docz/Install.MD) 
+1 | Installation Notes | [⏺️](docz/Install.MD) 
+2 | Help | [⏺️](docz/HELP.MD)

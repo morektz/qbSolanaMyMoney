@@ -6,6 +6,7 @@ due to permission issues.
 This is being fixed by making a bash script that sets the actual path. This need to be run everytime a new shell is
 opened 
 
-Comman
+Command
 
 `$. ./SetSolanaPath`
+
