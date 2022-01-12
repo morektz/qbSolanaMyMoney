@@ -29,3 +29,4 @@ N | Description | Link
 | --- | --- | --- | 
 1 | Installation Notes | [⏺️](docz/Install.MD) 
 2 | Help | [⏺️](docz/HELP.MD)
+3 | Errata | [⏺️](docz/errata.MD)
