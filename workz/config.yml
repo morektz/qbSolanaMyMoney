@@ -1,0 +1,7 @@
+---
+json_rpc_url: "https://8899-copper-crow-ey4rqxn5.ws-us25.gitpod.io/"
+websocket_url: ""
+keypair_path: /workspace/qbSolanaMyMoney/workz/
+address_labels:
+  "11111111111111111111111111111111": System Program
+commitment: confirmed
