@@ -1,6 +1,7 @@
 ```
 WARNING ! USING THE CONTENTS OF THIS REPO IN YOUR MAIN SOLANA DEV ENV WILL COMPLTELY FCK UP YOU WORK !! DO NOT USE!
 ```
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fgjbae1212%2Fhit-counter&count_bg=%23750550&title_bg=%23000000&icon=postwoman.svg&icon_color=%23FFFFFF&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 # Mon 10 Jan 2022 10:50:10 AM UTC 
 
 # Open this repo in gitpod
