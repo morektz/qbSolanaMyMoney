@@ -13,7 +13,8 @@ Commitment: confirmed
 ```
 
 # This is the list of errors which keep showing up 
-.
+
+Here trying to fix port issues , for getting 405 errors 
 
 
 https://github.com/ritwickdey/vscode-live-server/issues/541 
@@ -28,3 +29,9 @@ Then Look for how to install nodejs server
 https://ccoenraets.github.io/ionic-tutorial/start-node-server.html
 
 Not official but has the commands
+
+# Helpers for following the quest 
+
+This main [quest](https://openquest.xyz/quest/solana-my-money) needs helpers to understad and avoid errors
+
+Using [this]() one which is has the steps mentioned in better  detail
