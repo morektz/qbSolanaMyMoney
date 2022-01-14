@@ -34,4 +34,5 @@ Not official but has the commands
 
 This main [quest](https://openquest.xyz/quest/solana-my-money) needs helpers to understad and avoid errors
 
-Using [this]() one which is has the steps mentioned in better  detail
+Using [this](https://learn.figment.io/tutorials/generative-nfts-on-solana-with-candy-machine-v2-and-hashlips) one which is has the steps mentioned in better  detail
+- Problems are with creating the key and air dropping sol 
