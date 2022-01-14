@@ -34,6 +34,14 @@ tasks:
   openMode: tab-after
 
 # Install Solana 
+- name: NPM Update
+  init: |
+    gp sync-await rustinstall
+    npm update -g 
+  command: npm --version
+  openMode: tab-after
+
+# Install Solana 
 - name: Mocha Global install 
   init: |
     gp sync-await rustinstall
