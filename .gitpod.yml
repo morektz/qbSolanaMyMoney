@@ -36,22 +36,22 @@ tasks:
 # Install Solana 
 - name: NPM Update
   init: |
-    gp sync-await rustinstall
     npm update -g 
+    gp sync-done npmy
   command: npm --version
   openMode: tab-after
 
 # Install Solana 
 - name: Mocha Global install 
   init: |
-    gp sync-await rustinstall
+    gp sync-await npmy
     npm install -g mocha
   openMode: tab-after
 
 # Install Anchor
 - name: Anchor Install 
   init: |
-    gp sync-await rustinstall
+    gp sync-await npmy
     npm i -g @project-serum/anchor-cli
   command: anchor 
   openMode: tab-after
@@ -68,13 +68,13 @@ tasks:
 #Install npm server - required to server port 8080 or whichever port solana wants opened 
 - name: Install NPM Server
   init: |
+    gp sync-await npmy
     npm install --global http-server
-    gp sync-await rustinstall
 
 # Install Node Server  
 
 
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
 ports:
-  - port: 3000-9000
+  - port: 8000-9000
     onOpen: open-preview
