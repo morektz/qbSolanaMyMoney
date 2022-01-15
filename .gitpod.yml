@@ -46,7 +46,7 @@ tasks:
   init: |
     gp sync-await npmy
     npm install -g mocha
-  openMode: tab-after
+  openMode: split-right
 
 # Install Anchor
 - name: Anchor Install 
@@ -54,7 +54,7 @@ tasks:
     gp sync-await npmy
     npm i -g @project-serum/anchor-cli
   command: anchor 
-  openMode: tab-after
+  openMode: split-right
 
 # Add path when opening a new terminal
 # You need to add these to bashrc everytime you open a terminal, since gitpod doesnt give permissions to edit 
@@ -63,13 +63,14 @@ tasks:
   init: |
     gp sync-await rustinstall
   command: . ./SetSolanaPath
-  openMode: tab-after
+  openMode: split-right
 
 #Install npm server - required to server port 8080 or whichever port solana wants opened 
 - name: Install NPM Server
   init: |
     gp sync-await npmy
     npm install --global http-server
+  openMode: split-right  
 
 # For solana to work properly you will need to open up multiple ports for testing following section will have '
 # commands to do that '
