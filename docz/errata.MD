@@ -36,3 +36,21 @@ This main [quest](https://openquest.xyz/quest/solana-my-money) needs helpers to 
 
 Using [this](https://learn.figment.io/tutorials/generative-nfts-on-solana-with-candy-machine-v2-and-hashlips) one which is has the steps mentioned in better  detail
 - Problems are with creating the key and air dropping sol 
+
+# Problems and solutions 
+
+## Problems 
+
+In this quest - https://openquest.xyz/quest/solana-my-money 
+
+you have the following commands 
+
+``` 
+solana config set --url localhost # This is for setting the local host 
+```
+
+While on the devent you cant just airdop 100 tokens , instead you need to do 1 at a time
+
+## Solutions 
+
+The above command is somehow throwing all kinds of errors, in fact both `testnet` & `localhost` were both not allowing the airdrop of any coins. This issue was resolved when choosing `devnet` , This immediately solved the problem of communication. Also note since this is a cloud env it was important to both open all the required portsa, and also make them public 
