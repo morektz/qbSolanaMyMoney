@@ -10,3 +10,6 @@ Command
 
 `$. ./SetSolanaPath`
 
+# Ports 
+Need to open up ports 8080, 8899, 8900. See gipod yaml for this matter 
+

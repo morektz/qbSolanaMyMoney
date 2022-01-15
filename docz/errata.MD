@@ -54,3 +54,11 @@ While on the devent you cant just airdop 100 tokens , instead you need to do 1 a
 ## Solutions 
 
 The above command is somehow throwing all kinds of errors, in fact both `testnet` & `localhost` were both not allowing the airdrop of any coins. This issue was resolved when choosing `devnet` , This immediately solved the problem of communication. Also note since this is a cloud env it was important to both open all the required portsa, and also make them public 
+
+## Anchor Build Error 
+
+When it talks about adding some manifest it means 
+
+```
+rustup default nightly && rustup update
+```
