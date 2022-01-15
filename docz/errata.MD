@@ -57,8 +57,16 @@ The above command is somehow throwing all kinds of errors, in fact both `testnet
 
 ## Anchor Build Error 
 
-When it talks about adding some manifest it means 
+When it talks about adding some manifest it means rust needs to be reinstalled 
 
 ```
 rustup default nightly && rustup update
+```
+
+## build spdf error 
+
+This error will occur after you run the rust update it means its missing important tooling. This can be fixed by 
+
+```
+rustup toolchain add 1.53
 ```
