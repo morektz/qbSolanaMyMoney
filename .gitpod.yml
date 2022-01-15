@@ -69,9 +69,26 @@ tasks:
 - name: Install NPM Server
   init: |
     gp sync-await npmy
+    gp-sync-done httpy
     npm install --global http-server
 
-# Install Node Server  
+# For solana to work properly you will need to open up multiple ports for testing following section will have '
+# commands to do that '
+
+- name: Open port 8080
+  init: gp-sync-wait httpy
+  command: http-server -p 8080 
+
+- name: Open port 8900
+  init: gp-sync-wait httpy
+  command: http-server -p 8900 
+
+- name: Open port 8899
+  init: gp-sync-wait httpy
+  command: http-server -p 8899 
+
+
+
 
 
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
