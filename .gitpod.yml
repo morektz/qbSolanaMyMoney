@@ -76,17 +76,17 @@ tasks:
 # commands to do that '
 
 - name: Open port 8080
-  init: gp sync-wait httpy
+  init: gp sync-await httpy
   command: http-server -p 8080
   openMode:  tab-after
 
 - name: Open port 8900
-  init: gp sync-wait httpy
+  init: gp sync-await httpy
   command: http-server -p 8900 
   openMode: split-right
 
 - name: Open port 8899
-  init: gp sync-wait httpy
+  init: gp sync-await httpy
   command: http-server -p 8899 
   openMode: split-right
 
