@@ -68,8 +68,8 @@ tasks:
 #Install npm server - required to server port 8080 or whichever port solana wants opened 
 - name: Install NPM Server
   init: |
-    gp sync-await npmy
     gp-sync-done httpy
+    gp sync-await npmy
     npm install --global http-server
 
 # For solana to work properly you will need to open up multiple ports for testing following section will have '
@@ -98,3 +98,4 @@ tasks:
 ports:
   - port: 8000-9000
     onOpen: open-preview
+    visibility: public
