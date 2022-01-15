@@ -68,7 +68,6 @@ tasks:
 #Install npm server - required to server port 8080 or whichever port solana wants opened 
 - name: Install NPM Server
   init: |
-    gp sync-done httpy
     gp sync-await npmy
     npm install --global http-server
 
@@ -76,17 +75,17 @@ tasks:
 # commands to do that '
 
 - name: Open port 8080
-  init: gp sync-await httpy
+  init: gp sync-await rustinstall
   command: http-server -p 8080
   openMode:  tab-after
 
 - name: Open port 8900
-  init: gp sync-await httpy
+  init: gp sync-await rustinstall
   command: http-server -p 8900 
   openMode: split-right
 
 - name: Open port 8899
-  init: gp sync-await httpy
+  init: gp sync-await rustinstall
   command: http-server -p 8899 
   openMode: split-right
 
