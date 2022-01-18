@@ -1,7 +1,14 @@
 ```
 WARNING ! USING THE CONTENTS OF THIS REPO IN YOUR MAIN SOLANA DEV ENV WILL COMPLTELY FCK UP YOU WORK !! DO NOT USE!
 ```
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fmorektz%2FqbSolanaMyMoney&count_bg=%23750550&title_bg=%23000000&icon=postwoman.svg&icon_color=%23FFFFFF&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+
+<p align="center"><a href="https://bit.ly/morektz" target="_blank">
+    <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fmorektz%2FqbSolanaMyMoney&count_bg=%23750550&title_bg=%23000000&icon=postwoman.svg&icon_color=%23FFFFFF&title=hits&edge_flat=false"/>
+    <img src="https://img.shields.io/github/repo-size/morektz/qbSolanaMyMoney?style=plastic"></a>
+</p>
+
+
+
 # Mon 10 Jan 2022 10:50:10 AM UTC 
 
 # Open this repo in gitpod
