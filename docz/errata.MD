@@ -70,3 +70,12 @@ This error will occur after you run the rust update it means its missing importa
 ```
 rustup toolchain add 1.53
 ```
+
+When you get the following error 
+
+```bash
+error: no such subcommand: `build-bpf`
+```
+
+This means your solana path is not set correctly , run - When openign this in the cloud 
+`. ./SetSolanaPath`
