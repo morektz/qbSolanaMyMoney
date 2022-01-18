@@ -90,6 +90,6 @@ Need to update solana to the latest version which can be found [here](https://do
 Run this to update solana 
 
 ```bash
-https://docs.solana.com/cli/install-solana-cli-tools
+sh -c "$(curl -sSfL https://release.solana.com/v1.9.4/install)"
 ```
 
