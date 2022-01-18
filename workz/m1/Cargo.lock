@@ -705,6 +705,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "m1"
+version = "0.1.0"
+dependencies = [
+ "anchor-lang",
+]
+
+[[package]]
 name = "memchr"
 version = "2.4.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -717,13 +724,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "fe3179b85e1fd8b14447cbebadb75e45a1002f541b925f0bfec366d56a81c56d"
 dependencies = [
  "libc",
-]
-
-[[package]]
-name = "modapp1"
-version = "0.1.0"
-dependencies = [
- "anchor-lang",
 ]
 
 [[package]]
