@@ -36,3 +36,7 @@ echo -e "------------------------------------------------------"
 read -n 1 -s -r -p "Press any key to continue"
 solana airdrop 2 
 
+echo -e "------------------------------------------------------"
+echo -e "Store the seed for this wallet in a seperate file"
+echo -e "It gets displayed once when making the account" 
+echo -e "------------------------------------------------------"
