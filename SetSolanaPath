@@ -27,35 +27,3 @@ export PATH="/home/gitpod/.local/share/solana/install/active_release/bin:$PATH"
 source ~/.bashrc
 echo $PATH | grep solana
 solana --version
-
-# Setting the solana config to devnet 
-echo -e "------------------------------------------------------"
-echo -e "Now solana will be set to devnet "
-echo -e " solana config -set devnet"
-echo -e "------------------------------------------------------"
-
-read -n 1 -s -r -p "Press any key to continue"
-solana config set -u devnet 
-
-# Once above is done the next steo wil be to setup the accounts the next step is to
-# get a new keypair 
-
-echo -e "------------------------------------------------------"
-echo -e "Generate Solana Key - Force flag being used will addd new keys"
-echo -e " solana-keygen new -f"
-echo -e " solana address"
-echo -e "------------------------------------------------------"
-
-read -n 1 -s -r -p "Press any key to continue"
-solana-keygen new -f
-solana address 
-
-# After than lets airdrop 1 sol to the account so that account address will be visible 
-echo -e "------------------------------------------------------"
-echo -e "Airdrop 1 SOL - Devenet SOL needs to be done in increments"
-echo -e " solana airdrop 2"
-echo -e "------------------------------------------------------"
-
-read -n 1 -s -r -p "Press any key to continue"
-solana airdrop 2 
-
