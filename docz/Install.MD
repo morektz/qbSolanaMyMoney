@@ -13,3 +13,16 @@ Command
 # Ports 
 Need to open up ports 8080, 8899, 8900. See gipod yaml for this matter 
 
+# Preliminary setup is being done with bash files 
+
+The following will ensure you path is setup , this needs to be done everytime you open a new bash
+````bash
+$> . ./SetSolanPath
+````
+
+Seting up the solana devnet, getting an address and airdropping 1 sol 
+
+```bash
+$> ./SolanaAccSetup
+```
+
