@@ -93,3 +93,15 @@ Run this to update solana
 sh -c "$(curl -sSfL https://release.solana.com/v1.9.4/install)"
 ```
 
+When connected to devnet dont need to uset the following command 
+
+```bash
+anchor test 
+```
+THis command is for testing the local network so it wont function, this is taking into consideration you are 
+following both questbook and figma at the same time
+
+# Setting up phamtom 
+
+When using devnet , you need to setup phantom wallet which will show your balance
+
