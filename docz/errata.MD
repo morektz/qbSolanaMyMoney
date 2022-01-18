@@ -79,3 +79,17 @@ error: no such subcommand: `build-bpf`
 
 This means your solana path is not set correctly , run - When openign this in the cloud 
 `. ./SetSolanaPath`
+
+When you get this starnge unable to download error 
+
+```bash
+`error: failed to download `solana-frozen-abi v1.9.4`
+``` 
+Need to update solana to the latest version which can be found [here](https://docs.solana.com/cli/install-solana-cli-tools)
+
+Run this to update solana 
+
+```bash
+https://docs.solana.com/cli/install-solana-cli-tools
+```
+
