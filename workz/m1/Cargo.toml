@@ -1,3 +1,7 @@
+[dependencies]
+anchor-spl = "0.20.1"
+spl-token = { version = "3.1.1", features = ["no-entrypoint"] }
+
 [workspace]
 members = [
     "programs/*"
