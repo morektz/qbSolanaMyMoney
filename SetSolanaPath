@@ -59,8 +59,3 @@ echo -e "------------------------------------------------------"
 read -n 1 -s -r -p "Press any key to continue"
 solana airdrop 2 
 
-# Now to see the account contents 
-echo -e "------------------------------------------------------"
-echo -e "Airdrop 1 SOL - Devenet SOL needs to be done in increments"
-echo -e " solana airdrop 2"
-echo -e "------------------------------------------------------"
