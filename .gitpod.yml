@@ -90,6 +90,12 @@ tasks:
   command: http-server -p 8899 
   openMode: split-right
 
+#<--- Anchor Requested --->
+
+- name: Update Yarn 
+  init: curl --compressed -o- -L https://yarnpkg.com/install.sh | bash
+  openMode: tab-after
+
 #<---Work Here--->
 
 - name: Work WIndow
