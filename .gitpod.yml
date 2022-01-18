@@ -103,6 +103,12 @@ tasks:
   command: echo "Work In this window , Dont close port"
   openMode: tab-after
 
+- name: Rust update 
+  init : |
+    gp sync-await rustinstall
+    rustup default nightly
+    rustup update  
+  openMode: split-right
 
 #<--- Ports Section--->
 
