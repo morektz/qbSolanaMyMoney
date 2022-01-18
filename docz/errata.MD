@@ -105,3 +105,15 @@ following both questbook and figma at the same time
 
 When using devnet , you need to setup phantom wallet which will show your balance
 
+# TOML File format
+
+When looking at the default cargo.toml file it has this stuctures 
+
+```bash
+[workspace]
+members = [
+    "programs/*"
+]
+
+```
+THis is the [TOML](https://toml.io/en/) structure, questbook asks you to make additions, here is where the additions needs to be made
